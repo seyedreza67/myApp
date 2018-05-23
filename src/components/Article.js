@@ -22,9 +22,11 @@ const gutter = 10;
 
 const styles = StyleSheet.create({
     container: {
-        width : ( width - gutter * 3) / 2,
+        flex: .5,
+        // width : ( width - gutter * 3) / 2, // for scrollView
         backgroundColor: 'white',
         elevation: 1,
+        margin: 5,
         marginBottom: 10,
         shadowColor: '#000',
         shadowOffset: {width: 0, height: 20},
